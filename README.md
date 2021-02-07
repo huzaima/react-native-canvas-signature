@@ -18,7 +18,7 @@ This library uses [`react-native-canvas`](https://www.npmjs.com/package/react-na
 
 ## Installation
 
-This package uses _react-native-canvas_ under the hood. Please follow [`react-native-canvas's installation guidelines`](https://www.npmjs.com/package/react-native-canvas) to install it, then install this package using following commands
+This package uses _react-native-canvas_ under the hood. Please follow [`react-native-canvas's installation guidelines`](https://www.npmjs.com/package/react-native-canvas) to install it, then install this package using the following commands
 
 ```bash
 # using yarn
@@ -61,9 +61,9 @@ export default Example;
 
 | Name           | Type     | Default | Description                                                                |
 | -------------- | -------- | ------- | -------------------------------------------------------------------------- |
-| containerStyle | style    | {}      | Style of the view container)                                               |
+| containerStyle | style    | {}      | Style of the view container                                                |
 | canvasStyle    | style    | {}      | Style of the canvas                                                        |
-| lineWidth      | number   | 3       | Width of the stroke                                                        |
+| lineWidth      | number   | 3       | Width of the line                                                          |
 | lineColor      | string   | 'black' | Color of the line                                                          |
 | onChange       | function |         | Function called on signature change with base64 encoded string as argument |
 | onBegin        | function |         | Function called when user starts drawing the signature                     |
