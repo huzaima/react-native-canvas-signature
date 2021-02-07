@@ -5,7 +5,7 @@ import {
   StyleProp,
   GestureResponderEvent,
 } from 'react-native';
-import Canvas, { CanvasProps } from 'react-native-canvas';
+import Canvas from 'react-native-canvas';
 
 interface SignatureProps {
   containerStyle?: StyleProp<ViewStyle>;
