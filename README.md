@@ -69,6 +69,13 @@ export default Example;
 | onBegin        | function |         | Function called when user starts drawing the signature                     |
 | onEnd          | function |         | Function called when user end drawing the signature                        |
 
+## Methods
+
+| Name           | Description                                                       |
+| -------------- | ----------------------------------------------------------------- |
+| readSignature  | Reads the current signature on the canvas and triggers `onChange` |
+| clearSignature | Clears the current signature on the canvas                        |
+
 ## License
 
 This project is licensed under the terms of the
