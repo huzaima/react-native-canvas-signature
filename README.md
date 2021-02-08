@@ -16,6 +16,7 @@ This package provides a React Native component for hand-drawn signatures. Develo
 
 This library uses [`react-native-canvas`](https://www.npmjs.com/package/react-native-canvas).
 
+
 ## Installation
 
 This package uses _react-native-canvas_ under the hood. Please follow [`react-native-canvas's installation guidelines`](https://www.npmjs.com/package/react-native-canvas) to install it, then install this package using the following commands
@@ -27,6 +28,7 @@ yarn add react-native-canvas-signature
 # using npm
 npm install react-native-canvas-signature
 ```
+
 
 ## Usage
 
@@ -69,12 +71,18 @@ export default Example;
 | onBegin        | function |         | Function called when user starts drawing the signature                     |
 | onEnd          | function |         | Function called when user end drawing the signature                        |
 
+
 ## Methods
 
 | Name           | Description                                                       |
 | -------------- | ----------------------------------------------------------------- |
 | readSignature  | Reads the current signature on the canvas and triggers `onChange` |
 | clearSignature | Clears the current signature on the canvas                        |
+
+
+## Issues
+
+Report any issues [`here`](https://github.com/huzaima/react-native-canvas-signature/issues)
 
 ## License
 
