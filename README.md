@@ -3,9 +3,7 @@
 React native signature component (Android + iOS)
 
 <div align="center">
-<a href="https://badge.fury.io/js/react-native-canvas-signature" target="_blank">
-<img src="https://badge.fury.io/js/react-native-canvas-signature.svg" alt="NPM version" />
-</a>
+<a href="https://npmjs.com/package/react-native-canvas-signature"><img alt="npm version" src="https://img.shields.io/npm/v/react-native-canvas-signature"></a>
 <img src="https://img.shields.io/badge/Platforms-android%20%7C%20ios-blue" alt="Supports Android and iOS" />
 <a href="https://github.com/huzaima/react-native-canvas-signature/blob/master/LICENSE" target="_blank">
 <img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="MIT license" />
@@ -16,6 +14,7 @@ This package provides a React Native component for hand-drawn signatures. Develo
 
 This library uses [`react-native-canvas`](https://www.npmjs.com/package/react-native-canvas).
 
+<img src="ios.gif" />
 
 ## Installation
 
@@ -28,7 +27,6 @@ yarn add react-native-canvas-signature
 # using npm
 npm install react-native-canvas-signature
 ```
-
 
 ## Usage
 
@@ -71,14 +69,12 @@ export default Example;
 | onBegin        | function |         | Function called when user starts drawing the signature                     |
 | onEnd          | function |         | Function called when user end drawing the signature                        |
 
-
 ## Methods
 
 | Name           | Description                                                       |
 | -------------- | ----------------------------------------------------------------- |
 | readSignature  | Reads the current signature on the canvas and triggers `onChange` |
 | clearSignature | Clears the current signature on the canvas                        |
-
 
 ## Issues
 
